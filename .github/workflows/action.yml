@@ -21,8 +21,8 @@ jobs:
         with:
           server_address: smtp.qq.com
           server_port: 465
-          username: ${{ secrets.MAIL_USERNAME_1 }}
-          password: ${{ secrets.MAIL_PASSWORD_1 }}
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
           subject: Schedule Weather Report (${{env.REPORT_DATE}})
           html_body: file://result.html
           to: "xuhan@smail.nju.edu.cn,xu.han@smail.nju.edu.cn"
