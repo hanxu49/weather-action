@@ -25,7 +25,7 @@ jobs:
           subject: Schedule Weather Report (${{env.REPORT_DATE}})
           html_body: file://result.html
           to: "xuhan@smail.nju.edu.cn,xu.han@smail.nju.edu.cn"
-          from: GitHub Actions
+          from: '914966103@qq.com'
       # - name: 'Send mail 2nd'
       #   uses: dawidd6/action-send-mail@master
       #   with:
@@ -35,7 +35,7 @@ jobs:
       #     password: ${{ secrets.MAIL_PASSWORD_2 }}
       #     subject: Schedule Weather Report (${{env.REPORT_DATE}})
       #     html_body: file://result.html
-      #     to: 914966103@qq.com
+      #     to: xxx@qq.com
       #     from: GitHub Actions
       # - name: 'Send mail 3rd'
       #   uses: dawidd6/action-send-mail@master
